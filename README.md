@@ -11,6 +11,8 @@ Requires Python 3.7
 * Install the requirements by running: `./dependencies.sh`.
 
 ## Setup Complete
+* Add ip of instance to allowed host.
+* Add security group to accept all traffic.
 * Start the server: `./manage.py runserver 0.0.0.0:8000`.
 * Test the server is running on your local machine: `curl --location --request GET 'http://127.0.0.1:8000/ping/'`
 * You should receive a response of: `{"ping": "ok"}`
