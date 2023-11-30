@@ -3,7 +3,7 @@
 Requires Python 3.7
 
 ## Installation
-* Clone the repository. `git clone https://github.com/SirsarcasticD/backend.git`
+* Clone the repository. `git clone https://github.com/SirsarcasticD/backend-sever-python.git`
 * Update the system. `sudo apt-get update`
 * Install python. `sudo apt install python3-pip -y`
 * Create a new virtualenv `python3 -m venv venv`.
@@ -11,7 +11,7 @@ Requires Python 3.7
 * Install the requirements by running: `./dependencies.sh`.
 
 ## Setup Complete
-* Start the server: `./manage.py runserver`.
+* Start the server: `./manage.py runserver 0.0.0.0:8000`.
 * Test the server is running on your local machine: `curl --location --request GET 'http://127.0.0.1:8000/ping/'`
 * You should receive a response of: `{"ping": "ok"}`
 
